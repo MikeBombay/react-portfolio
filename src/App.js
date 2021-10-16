@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import "./index.css";
+import "./App.css";
 
 function App() {
   const [currentPage, handlePageChange] = useState("About");
@@ -16,8 +16,8 @@ function App() {
     switch (currentPage) {
       case "About":
         return <About />;
-      case "Projects":
-        return <Projects />;
+      case "Portfolio":
+        return <Portfolio />;
       case "Contact":
         return <Contact />;
       case "Resume":

@@ -5,11 +5,11 @@ function Nav(props) {
      
   
       <nav>
-          <ul>
+          <ul className="flex-row mobile-view">
           <li onClick={()=>props.handlePageChange("About")}>
                   about
                 </li>
-                <li onClick={()=>props.handlePageChange("Projects")}>
+                <li onClick={()=>props.handlePageChange("Portfolio")}>
                   projects
                 </li>
                 <li onClick={()=>props.handlePageChange("Resume")}>

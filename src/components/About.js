@@ -2,8 +2,10 @@ import React from 'react';
 
 function About() {
   return (
-    <section>
-      <h1 id="About">This is a page about me</h1>
+    <section class="about">
+      <h1>This is a page about me</h1>
+      <div>This is a paragraph about me. This paragraph tells the reader things about me. This is a paragraph about me. This paragraph tells the reader things about me. This is a paragraph about me. This paragraph tells the reader things about me. 
+        </div>
     </section>
   );
 }

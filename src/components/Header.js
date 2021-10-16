@@ -6,11 +6,17 @@ function Header(props) {
  
 
   return (
-    <div>
+    <header>
+			<div>
+				<h1>Mike Bombay</h1>
+			</div>
+			<div>
     
           <Nav handlePageChange={props.handlePageChange}/>      
    
     </div>
+		</header>
+    
   );
 }
 export default Header;
