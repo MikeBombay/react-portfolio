@@ -2,8 +2,9 @@ import React from 'react';
 
 function Resume() {
   return (
-    <section>
+    <section class="resume">
       <h2>Resume</h2>
+  
 				<h5>Proficiencies - Front End</h5>
 				<ol>
 					<li>HTML</li>

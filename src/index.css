@@ -155,7 +155,8 @@ button[disabled] {
 #div3 {font-size: 9px}
 
 .about,
-.contact {
+.contact,
+.resume {
   padding-left: 30px;
   padding-bottom: 12px;
   background-color:#dcf0f8 ;
