@@ -7,10 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 main {
 	margin: 0 auto;
@@ -21,12 +17,10 @@ main {
 :root {
 	--primary: #055024;
 	--dark: #A5ACAF;
-	--tertiary: #434417;
 	--quaternary: #2e813f;
 	--quinary: #bfd7ea;
 	--secondary: #002244;
 	--light: #2e813f;
-	--darker: #39a9db;
 	--error: rgb(228, 46, 1);
 	--spacing-one: calc(1rem);
 	--spacing-two: calc(1rem);
@@ -64,30 +58,6 @@ h6 {
 	font-weight: 500;
 	margin: 5px 0;
 	line-height: 1.25;
-}
-
-h1 {
-	font-size: 2.25rem;
-}
-
-h2 {
-	font-size: 2rem;
-}
-
-h3 {
-	font-size: 1.75rem;
-}
-
-h4 {
-	font-size: 1.5rem;
-}
-
-h5 {
-	font-size: 1.25rem;
-}
-
-h6 {
-	font-size: 1rem;
 }
 
 p {
@@ -236,97 +206,15 @@ li {
 	justify-content: flex-end;
 }
 
-.mx-1 {
-	margin-right: var(--spacing-one);
-	margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-	margin-right: var(--spacing-two);
-	margin-left: var(--spacing-two);
-}
-
-.my-1 {
-	margin-top: var(--spacing-one);
-	margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-	margin-top: var(--spacing-two);
-	margin-bottom: var(--spacing-two);
-}
-
-
-.my-5 {
-	margin-top: var(--spacing-five);
-	margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-	padding-right: var(--spacing-one);
-	padding-left: var(--spacing-one);
-}
-
-.px-2 {
-	padding-right: var(--spacing-two);
-	padding-left: var(--spacing-two);
-}
-
-.py-1 {
-	padding-top: var(--spacing-one);
-	padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-	padding-top: var(--spacing-two);
-	padding-bottom: var(--spacing-two);
-}
-
-.img-thumbnail {
-	width: auto;
-	height: 300px;
-	margin-bottom: 50px;
-	cursor: pointer;
-}
-
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
 .navActive {
 	color: var(--primary);
 }
-
-
 
 .photo {
 	width: auto;
 	height: auto;
 	max-width: 480px;
 	max-height: 640px;
-	/* padding: 50px; */
 	margin-bottom: 50px;
 }
 
@@ -407,7 +295,6 @@ li {
 	padding: 50px;
 }
 
-/* Viewports Styling start*/
 @media screen and (max-width: 980px) {}
 
 @media screen and (max-width: 817px) {

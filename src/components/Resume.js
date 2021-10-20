@@ -27,7 +27,7 @@ function Resume() {
           </ol>
           <div className="bottom-spacing">
 
-				<a href={require("./assets/Resume.pdf")} download>
+				<a href={require("./assets/Resume.pdf").default} download>
 					<h4>Download Resume</h4>
 				</a>
 			</div>

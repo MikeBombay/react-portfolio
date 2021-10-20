@@ -8,16 +8,17 @@ function Projects(props) {
 	const description = currentProject.description;
 	const image = currentProject.image;
 	const appLink = currentProject.deployed;
-
+	
 
 	return (
+		
 		<Card style={{ width: "20rem" }}>
 			<div className="center">
 				<Card.Body>
 					<Card.Title className="card-title">{name}</Card.Title>
           <Card.Img
 				variant="top"
-				img src={require(`./assets/${image}`)}
+				src={require(`./assets/${image}`).default}
 				className="card-image"
 			/>
 					<Card.Text className="card-text">{description}</Card.Text>
@@ -25,6 +26,7 @@ function Projects(props) {
 				</Card.Body>
 			</div>
 		</Card>
+		
 	);
 }
 
