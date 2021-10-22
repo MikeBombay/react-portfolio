@@ -7,10 +7,10 @@ function About() {
       <div class="container">
   <div class="row">
     <div class="col">
-    This is a paragraph about me. This paragraph tells the reader things about me. This is a paragraph about me. This paragraph tells the reader things about me. This is a paragraph about me. This paragraph tells the reader things about me.
+    This is a paragraph about me. This paragraph tells the reader things things things about me. This is a paragraph about me. This paragraph tells the reader things about me. This is a paragraph about me. This paragraph tells the reader things about me.
     </div>
     <div class="col">
-     <img src = {require('./assets/head.jpg')} alt="my head"/>
+     <img src = {assets/head.jpg} alt="my head"/>
     </div>
     </div>
     </div>
