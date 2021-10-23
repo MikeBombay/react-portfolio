@@ -292,7 +292,7 @@ li {
 }
 
 .padding {
-	padding: 50px;
+	padding: 10px;
 }
 
 @media screen and (max-width: 980px) {}
