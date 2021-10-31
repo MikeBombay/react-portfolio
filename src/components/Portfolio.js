@@ -19,12 +19,12 @@ function Portfolio() {
 			deployed: 'https://mikebombay.github.io/javascriptquiz/',
 		},
 		{
-			name: 'Note Taker',
+			name: 'Ruff Cuts',
 			description:
-				'Make a note, save it.',
-			image: 'note.png',
+				'Dog grooming service. Book appointments, pick your groomer and services.',
+			image: 'ruffcuts.png',
 			
-			deployed: 'https://calm-basin-11047.herokuapp.com/',
+			deployed: 'https://still-plateau-57843.herokuapp.com/',
 		},
 		{
 			name: 'Budget Tracker',
