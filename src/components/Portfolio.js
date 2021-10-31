@@ -19,14 +19,6 @@ function Portfolio() {
 			deployed: 'https://mikebombay.github.io/javascriptquiz/',
 		},
 		{
-			name: 'Ruff Cuts',
-			description:
-				'Dog grooming service. Book appointments, pick your groomer and services.',
-			image: 'ruffcuts.png',
-			
-			deployed: 'https://still-plateau-57843.herokuapp.com/',
-		},
-		{
 			name: 'Budget Tracker',
 			description:
 				'A Budget Tracker App that uses a noSQL database and offline persistance.',
@@ -39,6 +31,14 @@ function Portfolio() {
 				'Schedule your workday.',
 			image: 'scheduler.png',
 			deployed: 'https://mikebombay.github.io/scheduler/',
+		},
+		{
+			name: 'Ruff Cuts',
+			description:
+				'Dog grooming service. Book appointments, pick your groomer and services.',
+			image: 'ruffcuts.png',
+			
+			deployed: 'https://still-plateau-57843.herokuapp.com/',
 		},
 		{
 			name: 'What2Watch',
